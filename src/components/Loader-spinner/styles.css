@@ -1,0 +1,8 @@
+.create-spinner {
+  max-width: 700px;
+  margin: 0 auto 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
