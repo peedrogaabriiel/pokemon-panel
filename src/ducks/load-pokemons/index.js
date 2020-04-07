@@ -14,6 +14,12 @@ const setPokemon = (listPokemons) => ({
 const loadPokemons = () => async (dispatch, _) => {
   const data = await HttpService.get("/pokemon");
 
+  data.results.sort(function (a, b) {
+    const x = a.name.toLowerCase();
+    const y = b.name.toLowerCase();
+    return x < y ? -1 : x > y ? 1 : 0;
+  });
+
   dispatch(setPokemon(data.results));
   return data;
 };
