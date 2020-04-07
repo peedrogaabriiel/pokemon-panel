@@ -1,7 +1,7 @@
 import React from "react";
 import PokemonDatailscomponent from "./components";
 
-const PokemonDatails = ({ id }) => {
+const PokemonDatails = () => {
   return <PokemonDatailscomponent name="Nome" type="Tipo" />;
 };
 

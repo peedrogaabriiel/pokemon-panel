@@ -1,7 +1,7 @@
 const routesNames = {
   login: "/login",
   pokemon: "/pokemon",
-  pokemonId: "/pokemon/:id",
+  pokemonId: "/details",
 };
 
 export default routesNames;
