@@ -1,6 +1,5 @@
 const routesNames = {
-  login: "/login",
-  pokemon: "/pokemon",
+  pokemon: "/pokedex",
   pokemonId: "/details",
 };
 
