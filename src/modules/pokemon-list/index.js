@@ -4,18 +4,22 @@ import Pokemon from "./components/pokemon";
 import { Creators as loadPokemonCreators } from "../../ducks/load-pokemons";
 
 const PokemonList = ({ listPokemons, loadPokemons }) => {
-  useEffect(() => {
-    loadPokemons();
+  const initialize = async () => {
+    await loadPokemons();
     console.log("listPokemons no component: ", listPokemons);
-  }, [loadPokemons]);
+  };
 
-  return !listPokemons ? (
+  useEffect(() => {
+    initialize();
+  }, []);
+
+  return (
     <div>
       {listPokemons.map((item, index) => (
-        <Pokemon key={index} id={item.id} name={item.name} type={"item.type"} />
+        <Pokemon key={index} id={item.id} name={item.name} url={item.url} />
       ))}
     </div>
-  ) : null;
+  );
 };
 
 const mapStateToProps = ({ loadPokemons }) => ({
