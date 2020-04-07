@@ -10,10 +10,9 @@ import PokemonList from "../modules/pokemon-list";
 const Routes = () => (
   <ReactRouter history={history}>
     <Switch>
-      <AppRoute exact path={routesNames.login} component={Login} />
-      <AppRoute exact component={PokemonList} path={routesNames.pokemon} />
+      <AppRoute path={routesNames.login} component={Login} />
+      <AppRoute component={PokemonList} path={routesNames.pokemon} />
       <AppRoute
-        exact
         private
         component={PokemonDatails}
         path={routesNames.pokemonId}

@@ -1,16 +1,21 @@
 import React, { useEffect } from "react";
+import { connect } from "react-redux";
 import Pokemon from "./components/pokemon";
 import { Creators as loadPokemonCreators } from "../../ducks/load-pokemons";
-
-import { connect } from "react-redux";
 
 const PokemonList = ({ listPokemons, loadPokemons }) => {
   useEffect(() => {
     loadPokemons();
-    console.log("listPokemons: ", listPokemons);
+    console.log("listPokemons no component: ", listPokemons);
   }, [loadPokemons]);
 
-  return <Pokemon />;
+  return !listPokemons ? (
+    <div>
+      {listPokemons.map((item, index) => (
+        <Pokemon key={index} id={item.id} name={item.name} type={"item.type"} />
+      ))}
+    </div>
+  ) : null;
 };
 
 const mapStateToProps = ({ loadPokemons }) => ({

@@ -1,19 +1,14 @@
 import React from "react";
 import "./styles.css";
 
-const Pokemon = ({ authenticated }) => {
+const Pokemon = ({ name, type }) => {
   return (
     <div className="dragon-list">
       <article>
         <div className="div-row">
-          <strong>Nome: fjfgj</strong>
-          <p>Tipo: ghjghjfg</p>
+          <strong>Nome: {name}</strong>
+          <p>Tipo: {type}</p>
         </div>
-        {authenticated ? (
-          <div className="div-row-options">
-            <p>asdasdasdasdas</p>
-          </div>
-        ) : null}
       </article>
     </div>
   );
