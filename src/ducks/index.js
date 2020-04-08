@@ -1,15 +1,13 @@
-import thunk from "redux-thunk";
-import pokemonId from "./pokemon-id";
-import loadPokemons from "./load-pokemons";
-import logger from "redux-logger";
+import thunk from 'redux-thunk'
+import pokemonId from './pokemon-id'
+import logger from 'redux-logger'
 
-import { combineReducers, createStore, applyMiddleware } from "redux";
+import { combineReducers, createStore, applyMiddleware } from 'redux'
 
 const reducers = combineReducers({
-  pokemonId,
-  loadPokemons,
-});
+	pokemonId,
+})
 
-const store = createStore(reducers, applyMiddleware(thunk, logger));
+const store = createStore(reducers, applyMiddleware(thunk, logger))
 
-export default store;
+export default store
