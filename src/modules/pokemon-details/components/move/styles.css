@@ -1,0 +1,25 @@
+.move-attribute {
+	align-items: center;
+	background: white;
+	display: flex;
+	justify-content: center;
+	text-transform: capitalize;
+}
+
+.damage-physical {
+	background: #c92112;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: #f67a1a;
+}
+
+.damage-special {
+	background: #4f5870;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: #ffffff;
+}
+
+.damage-status {
+	background: #8c888c;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: #f7f7f7;
+}

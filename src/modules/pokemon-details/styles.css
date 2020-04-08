@@ -1,0 +1,137 @@
+.container {
+	background: white;
+	border-radius: 4px;
+	display: grid;
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+	margin: 15px 0px;
+	padding: 15px 0px;
+}
+
+.container .box {
+	background: #ccc;
+	border-radius: 4px;
+}
+
+.container .identifier {
+	display: flex;
+	font-weight: bold;
+	font-size: 18px;
+	grid-area: 1 / 1 / 1 / 4;
+	text-transform: capitalize;
+}
+
+.container .identifier .identifier-button {
+	background: var(--blue);
+	border-radius: 4px;
+	color: var(--light);
+	cursor: pointer;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 21px;
+	margin: 0px 8px;
+	padding: 0 7px;
+}
+
+.container .identifier .identifier-button:hover {
+	opacity: 0.7;
+}
+
+.container .identifier .identifier-title {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.container .sprites-front {
+	grid-area: 2 / 1 / 2 / 4;
+}
+
+.container .sprites-back {
+	grid-area: 3 / 1 / 3 / 4;
+}
+
+.container .types {
+	grid-area: 4 / 1 / 4 / 2;
+}
+
+.container .height {
+	grid-area: 4 / 2 / 4 / 3;
+}
+
+.container .weight {
+	grid-area: 4 / 3 / 4 / 4;
+}
+
+.container .abilities {
+	grid-area: 5 / 1 / 5 / 4;
+}
+
+.container .stats {
+	grid-area: 6 / 1 / 6 / 4;
+}
+
+.container .moves {
+	grid-area: 7 / 1 / 7 / 4;
+}
+
+.container .stats-container {
+	border: 4px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 1px;
+	padding: 8px 15px;
+}
+
+.container .moves-container {
+	padding: 1px;
+	box-sizing: border-box;
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container .box-title {
+	background: var(--dark);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color: var(--light);
+	padding: 3px 8px;
+}
+
+.container .move-header {
+	background: var(--secondary);
+	color: var(--light);
+	text-align: center;
+}
+
+.container .sprite,
+.container .ability {
+	background: var(--light);
+	border: 1px solid var(--dark);
+	border-radius: 4px;
+	color: var(--dark);
+	font-size: 12px;
+	padding: 3px 5px;
+	margin: 0px 2px;
+	text-transform: uppercase;
+}
+
+.container .type {
+	border-radius: 4px;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.2) inset;
+	font-size: 12px;
+	padding: 3px 5px;
+	margin: 0px 2px;
+	text-transform: uppercase;
+}
+
+.container .height-value,
+.container .weight-value,
+.container .types-container,
+.container .sprite-container,
+.container .abilities-container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 8px 0px;
+}

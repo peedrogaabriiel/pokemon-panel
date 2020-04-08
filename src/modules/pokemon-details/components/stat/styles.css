@@ -1,0 +1,25 @@
+.stat-container {
+	background: var(--blue);
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: var(--light);
+	display: grid;
+	text-align: center;
+}
+
+.stat-container:last-child {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.stat-container:first-child {
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.stat-container .stat-name {
+	font-size: 16px;
+}
+
+.stat-container .stat-value {
+	font-size: 16px;
+}

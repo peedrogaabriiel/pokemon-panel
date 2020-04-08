@@ -1,6 +1,5 @@
 const routesNames = {
-  pokemon: "/pokedex",
-  pokemonId: "/details",
-};
+	pokemon: '/pokedex',
+}
 
-export default routesNames;
+export default routesNames

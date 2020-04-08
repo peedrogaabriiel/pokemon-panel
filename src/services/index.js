@@ -1,20 +1,18 @@
-import axios from "axios";
-import { URL_BASE } from "../utils/constant";
+import axios from 'axios'
+import { URL_BASE } from '../utils/constant'
 
 const initialize = () => {
-  const instance = axios.create({ baseURL: URL_BASE });
+	const instance = axios.create({ baseURL: URL_BASE })
 
-  HttpService.instance = instance;
-};
+	HttpService.instance = instance
+}
 
-const get = (url) => {
-  return HttpService.instance.get(url).then(({ data }) => data);
-};
+const get = (url) => HttpService.instance.get(url).then(({ data }) => data)
 
 const HttpService = {
-  get,
-  instance: null,
-  initialize,
-};
+	get,
+	instance: null,
+	initialize,
+}
 
-export default HttpService;
+export default HttpService

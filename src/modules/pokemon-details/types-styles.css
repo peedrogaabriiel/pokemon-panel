@@ -1,0 +1,123 @@
+.type-normal {
+	background-color: #a8a878;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-poison {
+	background-color: #a040a0;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-ground {
+	background-color: #e0c068;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-rock {
+	background-color: #b8a038;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-bug {
+	background-color: #a8b820;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+.type-ghost {
+	background-color: #705898;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-steel {
+	background-color: #b8b8d0;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-dragon {
+	background-color: #7038f8;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-dark {
+	background-color: #705848;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-flying {
+	background-color: #a890f0;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+.type-fire {
+	background-color: #f08030;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-psychic {
+	background-color: #f85888;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-ice {
+	background-color: #98d8d8;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-fighting {
+	background-color: #c03028;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-water {
+	background-color: #6890f0;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-grass {
+	background-color: #78c850;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-electric {
+	background-color: #f8d030;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
+
+.type-fairy {
+	background-color: #ee99ac;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2) inset;
+	color: white;
+	font-weight: 'bold';
+}
