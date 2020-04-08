@@ -19,5 +19,5 @@ O sistema tem como sua principal utilizada a vizualição de pokemons e seus res
 
 ### `A seguir, vizualizaçoes do projeto`
 
-![pokedex](https://user-images.githubusercontent.com/28245105/78793585-fb7ce180-7988-11ea-9398-4bc92c31ef63.jpg)
-![pokedex2](https://user-images.githubusercontent.com/28245105/78793670-1a7b7380-7989-11ea-8366-bea88bf974e8.jpg)
+![pokedex](https://user-images.githubusercontent.com/28245105/78794186-cc1aa480-7989-11ea-8bcd-ff01bfd6a33b.jpg)
+![pokedex2](https://user-images.githubusercontent.com/28245105/78794188-ccb33b00-7989-11ea-8add-8a07872fd83f.jpg)
