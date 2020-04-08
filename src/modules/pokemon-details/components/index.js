@@ -1,12 +1,6 @@
-import React from "react";
-import "./styles.css";
+import React from 'react'
 
-const PokemonDetailComponent = ({ name, type }) => {
-  return (
-    <div className="dragon-details">
-      <h1>Nome: {name}</h1>
-      <p>Tipo: {type}</p>
-    </div>
-  );
-};
-export default PokemonDetailComponent;
+const PokemonComponent = () => {
+	return <div></div>
+}
+export default PokemonComponent
