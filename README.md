@@ -15,7 +15,7 @@ Você também verá erros de fiapos no console.
 
 ### `Pokedex`
 
-O sistema tem como sua principal utilizada a vizualição de pokemons e seus respoctivos detalhes, para que você possa estudalos para em seguida jogar com seus amigos
+O sistema tem como sua principal utilidade a visualição de pokemons e seus respectivos detalhes, para que você possa estudalos para em seguida jogar com seus amigos
 
 ### `A seguir, vizualizaçoes do projeto`
 
