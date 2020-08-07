@@ -10,12 +10,10 @@ Executa o aplicativo no modo de desenvolvimento. <br />
 Abra [http: // localhost: 3001/pokedex] (http: // localhost: 3001) para visualizá-lo no navegador.
 
 A página será recarregada se você fizer edições. <br />
-Você também verá erros de fiapos no console.
-
 
 ### `Pokedex`
 
-O sistema tem como sua principal utilidade a visualição de pokemons e seus respectivos detalhes, para que você possa estudalos para em seguida jogar com seus amigos
+O sistema tem como sua principal utilidade a visualização de Pokémons e seus respectivos detalhes, para que você possa estudá-los para em seguida jogar com seus amigos!
 
 ### `A seguir, vizualizaçoes do projeto`
 
