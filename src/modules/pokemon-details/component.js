@@ -40,7 +40,7 @@ const PokemonDetailsComponent = ({
 		<div className="container">
 			<div className="identifier">
 				<div onClick={onJumpPrevious} className="identifier-button">
-					&lt;&lt;
+					&lt; - 10
 				</div>
 				<div onClick={decreaseId} className="identifier-button">
 					&lt;
@@ -52,7 +52,7 @@ const PokemonDetailsComponent = ({
 					&gt;
 				</div>
 				<div onClick={onJumpNext} className="identifier-button">
-					&gt;&gt;
+					&gt; + 10
 				</div>
 			</div>
 			<div className="box sprites-front">
